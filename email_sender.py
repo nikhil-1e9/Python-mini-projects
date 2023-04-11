@@ -10,3 +10,4 @@ for email in emails:
 	message = "Message_you_need_to_send"
 	s.sendmail("sender_email_id", email, message)
 	s.quit()
+	
