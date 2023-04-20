@@ -1,9 +1,9 @@
 import random 
 while True:     
-     print(''' 1. roll the dice             2. exit     ''')    
-     user = int(input("what you want to do\n"))     
-     if user==1:         
+     print("press r to (r)oll the dice or q to (q)uit")    
+     user = input("what do you want to do\n")     
+     if user == 'r':         
         number = random.randint(1,6)         
         print(number)     
      else:         
-        break
+        sys.exit()
