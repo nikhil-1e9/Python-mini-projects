@@ -118,7 +118,7 @@ def gameLoop():
             snake_len += 1
  
         clock.tick(snake_speed)
- 
+    time.sleep(2)
     pygame.quit()
     # quit()
  
